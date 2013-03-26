@@ -1,3 +1,5 @@
+library(testthat)
+
 square <- function(x){
 	sq <- 0
 	for (i in 1:x){
