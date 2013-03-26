@@ -2,8 +2,7 @@ library(testthat)
 
 #' Expect that x is numeric
 square <- function(x){
-	sq <- x*x
-	return(sq)	
+	x^2		
 }
 
 test_that("Square function works on various input types", {
